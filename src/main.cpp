@@ -3,7 +3,6 @@
 #include "Video.hpp"
 #include "Frame.hpp"
 #include "Utils.hpp"
-#include <array>
 int main(int argc, char **argv) {
 	Frame<5, 10> f;
 	std::cout << f.getWidth() << "\n";

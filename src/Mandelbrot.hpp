@@ -7,6 +7,8 @@
 
 #pragma once
 #include <stdint.h>
+#include "Frame.hpp"
+
 class Mandelbrot {
 public:
 	Mandelbrot(size_t width, size_t height);
