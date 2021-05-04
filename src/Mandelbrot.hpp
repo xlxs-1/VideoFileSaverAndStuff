@@ -7,11 +7,15 @@
 
 #pragma once
 #include <stdint.h>
+#include <complex>
 #include "Frame.hpp"
-
+template<size_t width, size_t height, uint_fast16_t iterations>
 class Mandelbrot {
+	Frame<width, height> *frame;
+	uint32_t frameCounter;
 public:
-	Mandelbrot(size_t width, size_t height);
+	Mandelbrot();
 	~Mandelbrot();
 	void prepareNextFrame();
+	Frame<width, height>* getFrame();
 };

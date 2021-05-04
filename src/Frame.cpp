@@ -38,4 +38,4 @@ size_t Frame<width, height>::totalSizeInBytes() {
 	return getWidth() * getHeight() * 3 * sizeof(uint8_t);
 }
 
-template class Frame<5, 10> ;
+template class Frame<1920, 1080> ;
