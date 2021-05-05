@@ -39,3 +39,4 @@ size_t Frame<width, height>::totalSizeInBytes() {
 }
 
 template class Frame<1920, 1080> ;
+template class Frame<512, 512> ;

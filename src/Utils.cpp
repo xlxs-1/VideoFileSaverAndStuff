@@ -23,6 +23,9 @@ void Utils::fillIntrementaly(t *ar, size_t s) {
 	for (size_t i = 0; i < s; ++i)
 		ar[i] = i;
 }
+double Utils::map(double value, double istart, double istop, double ostart, double ostop) {
+	return ostart + (ostop - ostart) * ((value - istart) / (istop - istart));
+}
 template void Utils::print<int>(int*, int);
 template void Utils::print<unsigned char>(unsigned char*, int);
 

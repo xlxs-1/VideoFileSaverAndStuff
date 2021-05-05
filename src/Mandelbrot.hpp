@@ -8,7 +8,10 @@
 #pragma once
 #include <stdint.h>
 #include <complex>
+#include <algorithm>
+#include <cmath>
 #include "Frame.hpp"
+#include "Utils.hpp"
 template<size_t width, size_t height, uint_fast16_t iterations>
 class Mandelbrot {
 	Frame<width, height> *frame;
