@@ -2,7 +2,7 @@
  * Utils.cpp
  *
  *  Created on: 11 Mar 2021
- *      Author: xlxs
+ *      Author: Spiros Stavropoulos
  */
 
 #include "Utils.hpp"

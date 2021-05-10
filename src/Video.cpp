@@ -2,7 +2,7 @@
  * Video.cpp
  *
  *  Created on: 1 May 2021
- *      Author: xlxs
+ *      Author: Spiros Stavropoulos
  */
 
 #include "Video.hpp"

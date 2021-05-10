@@ -2,7 +2,7 @@
  * Frame.cpp
  *
  *  Created on: 4 May 2021
- *      Author: xlxs
+ *      Author: Spiros Stavropoulos
  */
 
 #include "Frame.hpp"

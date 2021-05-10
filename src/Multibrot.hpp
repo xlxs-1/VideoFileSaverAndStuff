@@ -2,7 +2,7 @@
  * Mandelbrot.hpp
  *
  *  Created on: 4 May 2021
- *      Author: xlxs
+ *      Author: Spiros Stavropoulos
  */
 
 #pragma once
@@ -15,13 +15,12 @@
 #include "Frame.hpp"
 #include "Utils.hpp"
 template<size_t width, size_t height, uint_fast16_t iterations>
-class Mandelbrot {
+class Multibrot {
 	Frame<width, height> *frame;
 	uint32_t frameCounter;
 public:
-	Mandelbrot();
-	~Mandelbrot();
+	Multibrot();
+	~Multibrot();
 	void prepareNextFrame();
 	Frame<width, height>* getFrame();
-	uint8_t mapColor(double mcol);
 };

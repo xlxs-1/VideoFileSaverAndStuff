@@ -2,7 +2,7 @@
  * Frame.hpp
  *
  *  Created on: 4 May 2021
- *      Author: xlxs
+ *      Author: Spiros Stavropoulos
  */
 
 #pragma once
