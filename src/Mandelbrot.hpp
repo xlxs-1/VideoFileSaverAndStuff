@@ -10,6 +10,8 @@
 #include <complex>
 #include <algorithm>
 #include <cmath>
+#include <limits>
+
 #include "Frame.hpp"
 #include "Utils.hpp"
 template<size_t width, size_t height, uint_fast16_t iterations>
@@ -21,4 +23,5 @@ public:
 	~Mandelbrot();
 	void prepareNextFrame();
 	Frame<width, height>* getFrame();
+	uint8_t mapColor(double mcol);
 };
