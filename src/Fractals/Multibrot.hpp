@@ -12,8 +12,8 @@
 #include <cmath>
 #include <limits>
 
-#include "Frame.hpp"
-#include "Utils.hpp"
+#include "../Frame.hpp"
+#include "../Utils.hpp"
 template<size_t width, size_t height, uint_fast16_t iterations>
 class Multibrot {
 	Frame<width, height> *frame;
