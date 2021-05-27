@@ -46,7 +46,7 @@ void Multibrot<width, height, iterations>::prepareNextFrame() {
 				}
 			}
 			for (size_t i = 0; i < 3; ++i) {
-				double c = ((double) iters - log2(.01 * log2(norm(z))) + 4.0) / iterations; //https://www.shadertoy.com/view/tllSWj line 17
+				double c = ((double) iters - log2(.01/*<- mb no need*/* log2(norm(z))) + 4.0) / iterations; //https://www.shadertoy.com/view/tllSWj line 17
 				frame->w(sY, sX, i, c * 255);
 			}
 		}
